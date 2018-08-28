@@ -7,6 +7,7 @@ Node latest version
 # What does this project do
 
 A car market for people to list their vehicles and set them for sale.
+Driving the next era of ether based crypto-commerce. ;)
 
 Owners of a vehicle can set the price in ETHER when they list a vehicle up for sale.
 
