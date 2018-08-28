@@ -1,0 +1,23 @@
+{
+  "name": "car_mart",
+  "version": "1.0.0",
+  "description": "Tools & Framework needed. Metamask-wallet Truffle framework Node latest version",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "node": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "truffle-hdwallet-provider": "0.0.3",
+    "zeppelin-solidity": "^1.7.0"
+  }
+}
