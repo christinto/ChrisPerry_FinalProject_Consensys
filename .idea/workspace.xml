@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73bc660f-5472-4ad4-90bd-74f1d8e9d626" name="Default" comment="" />
+    <list default="true" id="73bc660f-5472-4ad4-90bd-74f1d8e9d626" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/avoiding_common_attacks.md" afterPath="$PROJECT_DIR$/avoiding_common_attacks.md" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -34,8 +36,8 @@
           <file leaf-file-name="VehicleManager.sol" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/contracts/VehicleManager.sol">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="810">
-                  <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+                <state relative-caret-position="720">
+                  <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -46,7 +48,7 @@
               <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                 <state split_layout="SPLIT">
                   <first_editor relative-caret-position="241">
-                    <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+                    <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
                     <folding />
                   </first_editor>
                   <second_editor>
@@ -79,8 +81,8 @@
             <entry file="file://$PROJECT_DIR$/avoiding_common_attacks.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="390">
-                    <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                  <first_editor relative-caret-position="120">
+                    <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                     <folding />
                   </first_editor>
                   <second_editor>
@@ -225,12 +227,12 @@
       <option name="presentableId" value="Default" />
       <updated>1535438735454</updated>
       <workItem from="1535438736685" duration="475000" />
-      <workItem from="1535518373230" duration="3732000" />
+      <workItem from="1535518373230" duration="3933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4207000" />
+    <option name="totallyTimeSpent" value="4408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="369" y="30" width="1249" height="877" extended-state="0" />
@@ -295,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contracts/VehicleManager.sol">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+        <state relative-caret-position="720">
+          <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -304,8 +306,8 @@
     <entry file="file://$PROJECT_DIR$/avoiding_common_attacks.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="390">
-            <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
