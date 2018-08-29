@@ -4,7 +4,8 @@ Avoid 'reentry' recursive calls and Cross function race conditions
 	•	We manage the state of the vehicle has to be in a FOR SALE / SOLD before another person can actually buy the car. 
 	•	Mitigates the risk of race condition where the owner of the car can List a car for sale and at the same time transfer the car to another address when someone else has bought the car. 
 *transferVehicle has to be in RoadWorthy state and not in ForSale state as another user could be trying to buy a car.
-`  function transferVehicle(uint _vin, address _newOwner) carOwnerOnly(vehicleMap[_vin].owner) roadWorthy(_vin) stopInEmergency public returns (string) {
+
+`function transferVehicle(uint _vin, address _newOwner) carOwnerOnly(vehicleMap[_vin].owner) roadWorthy(_vin) stopInEmergency public returns (string) {
      emit TransferVehicle(_vin);
      vehicleMap[_vin].owner = _newOwner;
      vehicleMap[_vin].status = Status.RoadWorthy;
@@ -13,6 +14,7 @@ Avoid 'reentry' recursive calls and Cross function race conditions
 Integer Arithmetic Overflow
 We ensure that our uint data type variables are not allowed to be over-flowed by using the safeMath library to add and multiply the fees that we collect from the users when they sell / buy the cars.
 We ensure that we don't transfer to the user more than the price they have set and also that the fee component we calculate using safeMath library to ensure that the number multiplied and divided are still valid integer.
+
 `contract VehicleManager is Owned, CircuitBreaker {
  using SafeMath for uint;
  }
@@ -21,8 +23,7 @@ We ensure that we don't transfer to the user more than the price they have set a
 
  emit Fee(fee);
 
- owner.transfer((vehicleMap[vin].price).sub(fee));
-`
+ owner.transfer((vehicleMap[vin].price).sub(fee));`
 
 Denial of Service prevention - reduce use of loops and running out of gas limit
 	•	The contract doesn't avoids any looping behaviour
