@@ -27,9 +27,6 @@ Select the address you want to use from metamask when interacting with the car m
 
 # How to Setup
 
-
-To start, please open a command line terminal.
-
 1. Install Truffle and Ganache globally.
 
 * $ npm install -g truffle
@@ -37,7 +34,6 @@ To start, please open a command line terminal.
 
 
 2. Clone this repository, cd into the directory, and install the node module dependencies.
-
 
 * git clone https://github.com/christinto/ChrisPerry_FinalProject_Consensys.git
 * $ cd ChrisPerry_FinalProject_Consensys
@@ -65,17 +61,13 @@ To start, please open a command line terminal.
 	•	Select Private Network - localhost:8545 
 	•	Metamask will inject the account into the app 
 
-   Otherwise, feel free to use the Rinkeby Test Network for signing transactions.
-
-7. Start lite-server
-* This will serve a local instance of the application on your machine. Lite server is setup in bs-config.json to serve the files required.
+7. Start lite-server to serve a local instance of the app. 
+Lite server is setup in bs-config.json to serve the files required.
 
 * $ npm run dev
 
 
 8. Browse to URL in browser:
-
-* localhost:3000
 
 The server will launch the app at http://localhost:3000
 
