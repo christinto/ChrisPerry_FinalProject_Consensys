@@ -71,4 +71,4 @@ Lite server is setup in bs-config.json to serve the files required.
 
 The server will launch the app at http://localhost:3000
 
-Enjoy the app :)
+Enjoy the app! :)
