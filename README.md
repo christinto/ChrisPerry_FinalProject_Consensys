@@ -28,10 +28,10 @@ Select the address you want to use from metamask when interacting with the car m
 # How to Setup
 
 1. Install Truffle and Ganache globally.
-
+'''
 * $ npm install -g truffle
 * $ npm install -g ganache-cli
-
+'''
 
 2. Clone this repository, cd into the directory, and install the node module dependencies.
 
