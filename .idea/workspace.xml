@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73bc660f-5472-4ad4-90bd-74f1d8e9d626" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/contracts/CircuitBreaker.json" afterPath="$PROJECT_DIR$/build/contracts/CircuitBreaker.json" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/Migrations.json" afterPath="$PROJECT_DIR$/build/contracts/Migrations.json" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/Owned.json" afterPath="$PROJECT_DIR$/build/contracts/Owned.json" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/VehicleManager.json" afterPath="$PROJECT_DIR$/build/contracts/VehicleManager.json" />
-    </list>
+    <list default="true" id="73bc660f-5472-4ad4-90bd-74f1d8e9d626" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
