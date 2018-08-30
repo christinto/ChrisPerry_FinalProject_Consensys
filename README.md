@@ -27,16 +27,56 @@ Select the address you want to use from metamask when interacting with the car m
 
 # How to Setup
 
-1. Run on a local development server 
 
-    ganache-cli test blockchain on port 8545
+To start, please open a command line terminal.
 
-    - ganache-cli --noVMErrorsOnRPCResponse
+1. Install Truffle and Ganache globally.
 
-2. Connect metamask to ganache-cli
+$ npm install -g truffle
+$ npm install -g ganache-cli
 
-    Metamask should be connected to the local ganache-cli environment on port 8545. 
 
-3. Start lite-server by invoking npm dev
+2. Clone this repository, cd into the directory, and install the node module dependencies.
 
-    lite-server is setup in bs-config.json to serve the files required. 
+
+git clone https://github.com/christinto/ChrisPerry_FinalProject_Consensys.git
+$ cd ChrisPerry_FinalProject_Consensys
+$ npm install
+
+
+3. Open a separate terminal and run the Ganache test blockchain.
+
+$ ganache-cli
+
+
+4. Compile and migrate the smart contracts.
+
+$ truffle compile
+$ truffle migrate
+
+
+5. Run the tests to make sure the contract is working correctly.
+
+$ truffle test
+
+6. Connect metamask to ganache-cli
+
+	•	Metamask should be connected to the local ganache-cli environment on port 8545. 
+	•	Select Private Network - localhost:8545 
+	•	Metamask will inject the account into the app 
+
+   Otherwise, feel free to use the Rinkeby Test Network for signing transactions.
+
+7. Start lite-server
+* This will serve a local instance of the application on your machine. Lite server is setup in bs-config.json to serve the files required.
+
+$ npm run dev
+
+
+8. Browse to URL in browser:
+
+localhost:3000
+
+The server will launch the app at http://localhost:3000
+
+Enjoy the app :)
