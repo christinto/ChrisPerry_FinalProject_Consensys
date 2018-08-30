@@ -40,24 +40,24 @@ $ npm install -g ganache-cli
 
 
 * git clone https://github.com/christinto/ChrisPerry_FinalProject_Consensys.git
-$ cd ChrisPerry_FinalProject_Consensys
-$ npm install
+* $ cd ChrisPerry_FinalProject_Consensys
+* $ npm install
 
 
 3. Open a separate terminal and run the Ganache test blockchain.
 
-$ ganache-cli
+* $ ganache-cli
 
 
 4. Compile and migrate the smart contracts.
 
-$ truffle compile
-$ truffle migrate
+* $ truffle compile
+* $ truffle migrate
 
 
 5. Run the tests to make sure the contract is working correctly.
 
-$ truffle test
+* $ truffle test
 
 6. Connect metamask to ganache-cli
 
