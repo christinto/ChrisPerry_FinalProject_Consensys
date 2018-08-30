@@ -11,7 +11,7 @@ Driving the next era of ether based crypto-commerce. ;)
 
 Owners of a vehicle can set the price in ETHER when they list a vehicle up for sale.
 
-*Please note that the sale price of your car is first set when you transfer the vehicle to another address, not at initial registration.
+*Please note that the sale price of your car is first set when you transfer the vehicle to another address, not at initial registration. :)
 
 Metamask integration will allow you to see which vehicles are owned by you / can be purchased if owned by another address.
 
