@@ -39,7 +39,7 @@ $ npm install -g ganache-cli
 2. Clone this repository, cd into the directory, and install the node module dependencies.
 
 
-git clone https://github.com/christinto/ChrisPerry_FinalProject_Consensys.git
+* git clone https://github.com/christinto/ChrisPerry_FinalProject_Consensys.git
 $ cd ChrisPerry_FinalProject_Consensys
 $ npm install
 
