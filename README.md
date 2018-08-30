@@ -75,7 +75,7 @@ To start, please open a command line terminal.
 
 8. Browse to URL in browser:
 
-localhost:3000
+* localhost:3000
 
 The server will launch the app at http://localhost:3000
 
