@@ -32,8 +32,8 @@ To start, please open a command line terminal.
 
 1. Install Truffle and Ganache globally.
 
-$ npm install -g truffle
-$ npm install -g ganache-cli
+* $ npm install -g truffle
+* $ npm install -g ganache-cli
 
 
 2. Clone this repository, cd into the directory, and install the node module dependencies.
@@ -70,7 +70,7 @@ $ npm install -g ganache-cli
 7. Start lite-server
 * This will serve a local instance of the application on your machine. Lite server is setup in bs-config.json to serve the files required.
 
-$ npm run dev
+* $ npm run dev
 
 
 8. Browse to URL in browser:
