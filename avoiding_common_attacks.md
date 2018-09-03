@@ -1,8 +1,8 @@
 # Avoiding Common Attacks
 
 ### Avoid 'reentry' recursive calls and Cross function race conditions
-	•	We manage the state of the vehicle has to be in a FOR SALE / SOLD before another person can actually buy the car. 
-	•	Mitigates the risk of race condition where the owner of the car can List a car for sale and at the same time transfer the car to another address when someone else has bought the car. 
+	•	We manage the state of the vehicle to be in a FOR SALE / SOLD state before another person can actually buy the car. 
+	•	Mitigate the risk of race condition where the owner of the car can List a car for sale and at the same time transfer the car to another address when someone else has bought the car. 
 * transferVehicle has to be in RoadWorthy state and not in ForSale state as another user could be trying to buy a car.
 
 '
