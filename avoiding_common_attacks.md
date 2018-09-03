@@ -27,8 +27,8 @@
     }`
 
 ### Integer Arithmetic Overflow
-We ensure that our uint data type variables are not allowed to be over-flowed by using the safeMath library to add and multiply the fees that we collect from the users when they sell / buy the cars.
-We ensure that we don't transfer to the user more than the price they have set and also that the fee component we calculate using safeMath library to ensure that the number multiplied and divided are still valid integer.
+We ensure that our uint data type variables are not allowed to be over-flowed by using the safeMath library to add and multiply the fees that we collect from the users when they sell / buy cars.
+We ensure that we do not transfer to the user more than the price they have set and also that the fee component calculated using safeMath library ensures that the number multiplied and divided is still a valid integer.
 
 `contract VehicleManager is Owned, CircuitBreaker {
  using SafeMath for uint;
@@ -42,11 +42,11 @@ We ensure that we don't transfer to the user more than the price they have set a
 `
 
 ### Denial of Service prevention - reduce use of loops and running out of gas limit
-	•	The contract doesn't avoids any looping behaviour
+	•	The contract avoids any looping behaviour
 	•	Avoids recursive calls in the contract
 	•	Only the owner of the vehicle can change the state of the vehicle to be for sale
 	•	Only vehicles with For Sale state can be bought with ETHER by a buyer
 
 ### Reduce malicious creator
-	•	The fee component of the motorbike mart is a constant value set in the construction of the contract. The owner of the contract can not alter the fee after creation of the contract. 
+	•	The fee component of the car market is a constant value set in the construction of the contract. The owner of the contract can not alter the fee after creation of the contract. 
 	•	Only allowing the contract owner to withdraw funds from the contract that is collected from the commission fees during the trading of cars. 
